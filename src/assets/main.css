@@ -1,0 +1,1528 @@
+@import url("https://use.typekit.net/cmv5yao.css");
+body {
+  font-family:forma-djr-display;
+  margin:0;
+}
+
+/*------------ HEADER PROPERTIES ---------*/
+
+.bloc{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.containerHeader{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bloc video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left:50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+header video {
+  width:100%;
+  top:0;
+  z-index:-100;
+}
+
+.navBar{
+  background:transparent;
+  position: absolute;
+  z-index:1000;
+  top:0;
+  left:0;
+  padding:10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavContainerSlot {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.navBar a{
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  transition:0.6s
+}
+.navs a:hover {
+  transform:scale(1.2);
+}
+.navBar .home-link {
+  width:70%;
+}
+.menuBurger{
+  display: none;
+  z-index:5000;
+  width: 55px;
+  top:25px;
+  right: 50px;
+  background-color: #000;
+}
+.menuBurger:hover {
+  cursor:pointer
+}
+.logo-pepenome {
+  width: 27%;
+  margin-left:20px
+}
+ul{   
+  width: 55%;
+  font-size: 1.03rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+li a{
+  width: 80%;
+}
+
+
+
+/*----------- INTRO CARD PROPERTIES --------*/
+
+.intro-card-box {
+  padding:50px 0;
+  margin-top:30px;
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.intro-pic {
+  width:45%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.pola-picture-box {
+  width:100%;
+  position: relative;
+}
+.pola-picture-box img {
+  width:100%;
+}
+
+.intro-text {
+  width:35%;
+  font-size:1.2rem;
+  display:flex;
+  flex-wrap:wrap;
+}
+.intro-text h3 {
+  font-size:1.2rem;
+  color:lightgray;
+  font-weight:300;
+  width:100%
+}
+.intro-text h2 {
+  font-size:2.8rem;
+  font-weight:bold;
+}
+.intro-text p {
+  letter-spacing: 0.7px;
+}
+.intro-name h2 {
+  margin:0
+}
+.intro-desc {
+  margin:0 0 30px 0
+}
+.intro-more a {
+  color:lightgray;
+}
+
+/*--------------- MY PROJECTS - HOMEPAGE PROPERTIES ------------*/
+
+.main-hp-container{
+  padding:60px 0 80px 0;
+  width: 100%;
+  margin-top:-10px;
+  background-color: black;
+}
+.hp-container{
+  margin: 2%;
+  color: white;
+  text-align: center;
+}
+.hp-container h2 {
+  font-size:2.8rem;
+  margin-top:0
+}
+.hp-container a {
+  color:white;
+  text-decoration:none
+}
+.hp-head{
+  width: max-content;
+  margin: auto;
+}
+.hp-head h1 {
+  border-bottom: 1px solid white;
+}
+.hp-head p{
+  color: lightgray;
+  font-size: 1.5rem;
+}
+.hp-navbar {
+  padding:0 0 40px 0;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hp-navbar h3 {
+  font-weight:300
+}
+.hp-navbar a {
+  text-decoration:none;
+  color:white
+}
+.nav-hp{
+  opacity: 0.6;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+.nav-hp:hover{
+  transition: all 1s;
+  opacity: 1;
+}
+.hp-grid{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-container1{
+  margin: 1%;
+  position: relative;
+  width: 30%;
+}
+.box-container2{
+  position: relative;
+  width: 53.5%;
+}
+
+.box-container3{
+  margin: 0 1%;
+  position: relative;
+  width: 46.4%;
+}
+
+.box-container4{
+  position: relative;
+  width: 37.1%;
+}
+
+.text-over {
+  color: white;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  text-align: center;
+  display: flex;
+  opacity: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-over a {
+  text-decoration:none;
+  color:white
+}
+.text-over:hover{
+  opacity: 1;
+}
+.text-over * {
+  margin:0;
+}
+.text-over h3 {
+  font-size:2.5rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+.text-over p {
+  text-transform: uppercase;
+  font-size:1.2rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+
+.img1{
+  display: block;
+  width: 100%;
+}
+
+.video1{
+  display: block;
+  width: 100%;
+}
+
+.img2{
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 50%;
+}
+
+.img3{
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 50%;
+}
+
+
+.btn-voirplus{
+  width: 90.5%;
+  text-align: right;
+  min-height: 7vh;
+}
+.voirplus a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color: black;
+  color:lightgray;
+  border-bottom:1px solid lightgray;
+}
+
+.hp-container-2 {
+  margin-bottom:20px
+}
+
+/*---------- ABOUT PAGE ----------*/
+
+/*---------- ABOUT CARD PROPERTIES ----------*/
+.about-card {
+  margin:auto;
+  color: #000;
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-card__img-box {
+  width: 38%;
+  min-width:37%
+}
+
+.about-card__img-box img {
+  width: 100%;
+  min-width:100%;
+  height: auto;
+}
+
+.about-card__text-box {
+  /* width: 45%; */
+  padding-top: 15px;
+}
+
+.about-card__text-box h2 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+.about-card__text-box h2:nth-child(1) {
+  line-height: 0.8;
+}
+
+.about-card__text-box h3 {
+  max-width: 7em;
+  margin-top: 0;
+  padding-top: 5px;
+  color: #acacac;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #acacac;
+}
+
+.about-card__text-box p {
+  max-width: 485px;
+  font-size: 1.2rem;
+  word-spacing: 1px;
+}
+
+.about-card__text-box p:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.about-card__text-box p:nth-child(6) {
+  margin-top: 0;
+}
+
+.about-card__text-box span {
+  font-weight: bold;
+}
+
+/*---------- CREDO CARD PROPERTIES ----------*/
+.credo-card {
+  color: #fff;
+  background-color: #000;
+  padding: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.credo-card__text-box h2 {
+  margin: 0;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.credo-card__text-box hr {
+  margin: 1rem 0;
+  max-width: 20.5rem;
+  border-bottom: none;
+  border-width: 0.1px;
+}
+
+.credo-card__text-box p {
+  font-size: 1.2em;
+  max-width: 510px;
+  word-spacing: 1px;
+}
+
+.credo-card__text-box span {
+  font-weight: bold;
+}
+
+.credo-card__img-box {
+  width: 40%;
+}
+
+.credo-card__img-box img {
+  width: 100%;
+  height: auto;
+}
+
+/*---------- CREDO CARD PROPERTIES ----------*/
+.review-card {
+  padding-bottom:2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-card__up {
+  padding: 2em 0 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-card p {
+  font-size: 1.5em;
+  margin-bottom:0
+}
+
+.review-card h2 {
+  margin:0;
+  padding-top: 10px;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.review-card__carousel {
+  width: 90vw;
+  position:relative;
+  overflow: hidden; 
+}
+
+.review-card__carousel button:active, .review-card__carousel button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.review-carousel__nav {    
+  background: white;
+  opacity: 0.2;
+  border: none;
+  font-size: 2em;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+}
+
+
+.review-carousel__nav.review-carousel__next {
+  right: 10px;
+  left: auto;
+}
+
+.review-card__cite-box {
+  min-height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-card cite {
+  max-width: 90%;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+.review-card h3 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+.slide-right-enter-active {
+  animation: slideRightIn .5s;
+}
+
+.slide-right-leave-active {
+  animation: slideRightOut .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes slideRightIn {
+  from { transform: translateX(100%);}
+  to { transform: translateX(0)}
+}
+
+@keyframes slideRightOut {
+  from { transform: translateX(0);}
+  to { transform: translateX(-100%)}
+}
+
+.slide-left-enter-active {
+  animation: slideLeftIn .5s;
+}
+
+.slide-left-leave-active {
+  animation: slideLeftOut .5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes slideLeftIn {
+  from { transform: translateX(-100%);}
+  to { transform: translateX(0)}
+}
+
+@keyframes slideLeftOut {
+  from { transform: translateX(0);}
+  to { transform: translateX(100%)}
+}
+
+/*---------- FOOTER PROPERTIES ----------*/
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-footer__up {
+  padding-top:60px;
+  background-color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__up--black {
+  padding-top: 60px;
+  background-color: #000;
+  color:#fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__up p:nth-child(1), .main-footer__up--black p:nth-child(1) {
+  font-size: 1.5em;
+}
+
+.main-footer__up p:nth-child(2) {
+  margin:0;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.main-footer__up--black p:nth-child(2) {
+  margin:0;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.main-footer__up a {
+  text-decoration: none;
+  color:#000;
+  background-image:white;
+  -webkit-text-fill-color: none;
+  transition: 0.5s all ease-in-out;
+}
+
+.main-footer__up--black a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-footer__social-media {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 2em 0 4em 0;
+}
+
+.main-footer__up--black .main-footer__social-media {
+  padding: 2em 0 0 0;
+}
+
+.main-footer__social-media img {
+  width: 50px;
+  margin-right: 1rem;
+  transition: 0.45s ease-in-out;
+}
+
+.main-footer__social-media img:hover {
+  transform: scale(1.5);
+}
+.main-footer__bottom {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.main-footer__bottom img {
+  width:15%;
+  height: auto;
+}
+
+/*---------- CONTACT PAGE ----------*/
+.mainContact{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.line::after {
+  content: '';
+  border-bottom: 1px solid gray;
+  display: block;
+  padding: 15px;
+  width: 13rem;
+}
+.line2{
+  padding-top: 1rem;
+}
+.line2::after {
+  content: '';
+  border-bottom: 1px solid gray;
+  display: block;
+  padding: 15px;
+  width: 15rem;
+}
+
+.contactLogo{
+  width: 100%;
+  margin:150px 0
+}
+.containerContact{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.contact{
+  width: 17rem;
+  font-size: 1.2rem;
+}
+.contact a{
+  color: #fff;
+  text-decoration: none;
+}
+.contacetezMoi{
+  width: 29rem;
+  border: 1px solid white;
+  text-align: center; 
+  word-spacing:1px;
+  padding: 2.5rem 2rem 3.5rem 2rem;
+}
+.contacetezMoi p{
+  font-size: 1.4rem;
+}
+
+div:hover >.letterFlip {
+  animation: flip 1s 1;
+  animation-delay: calc(.2s * var(--i))
+}
+
+.letterFlip {
+  display: inline-block;
+}
+.animContact {
+  font-size: 2.7rem;
+}
+
+@keyframes flip {
+  0%,70% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.socialLink {
+  /* width: 72rem; */
+  margin: auto;
+  height: 100px;
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  padding-top:2rem
+}
+
+.socialLink img {
+  width: 50px;
+  opacity: 0.6;
+  transition: 0.45s ease-in-out;
+  margin-right: 1rem;
+}
+.socialLink img:hover{
+  opacity: 1;
+  transform: scale(1.5);
+  margin-bottom: 0.5rem;
+}
+/*---------------------------------------- TEST -------------------------------------*/
+
+/* .box-container1 img {
+  width:100%
+}
+.box-container1 video {
+  width:100%
+} */
+.hp-grid img,
+.hp-grid video {
+  width:100%;
+}
+
+.v-for{
+  width:min-content
+}
+
+/* ------------GRID------------  */
+.containerGridMotion {
+  display: grid; 
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: .5fr .5fr .3fr ; 
+  gap: 20px; 
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "Laetitia Laetitia Laetitia LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"
+    "Nolex Nolex Nolex Nolex LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"; 
+}
+
+.containerGridBranding {
+  display: grid; 
+  grid-template-columns: 0fr 2fr 1fr .5fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 2fr; 
+  grid-template-rows: .7fr .5fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LaColine LaColine LaColine LaColine Laetitia Laetitia Laetitia Laetitia"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo Nolex Nolex Nolex Nolex Nolex Nolex"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves"; 
+}
+
+.containerGridGraphisme {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1.2fr 1.5fr .2fr 1fr 1fr 1fr; 
+  grid-template-rows: .8fr .1fr 1fr .4fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "NeueAra NeueAra NeueAra NeueAra NeueAra Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra chaves chaves chaves Blue Blue Blue Blue"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves Blue Blue Blue Blue"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune N N N N N N N"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp N N N N N N N"; 
+}
+
+.containerGridEdition {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0fr; 
+  grid-template-rows: .9fr .4fr .8fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo AlianceC AlianceC AlianceC AlianceC AlianceC AlianceC AlianceC"
+    "Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet LaColine LaColine LaColine Laetitia Laetitia Laetitia Laetitia"
+    "Blue Blue Blue Blue Blue LCJ LCJ LCJ chaves chaves chaves chaves"; 
+}
+
+.containerGridWeb {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "Nolex Nolex Nolex Nolex Nolex Nolex Nolex Nolex Laetitia Laetitia Laetitia Laetitia"; 
+}
+
+.containerGridProjet {  
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .6fr .7fr .6fr .5fr 1fr .5fr .5fr .3fr;
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra AlianceC AlianceC AlianceC AlianceC AlianceC"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo N N N N N N"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo LaColine LaColine LaColine Laetitia Laetitia Laetitia"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp LCJ LCJ LCJ"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet Sixfeet"
+    "LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune chaves chaves chaves Blue Blue Blue"
+    "Nolex Nolex Nolex Nolex chaves chaves chaves Blue Blue Blue";
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.containerGridHome {  
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .8fr .95fr;
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor LiquideColor"
+    "NeueAra NeueAra NeueAra NeueAra NeueAra AlianceC AlianceC AlianceC AlianceC AlianceC"
+}
+
+.containerGridIllustration {
+  display: grid; 
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: .6fr .5fr .5fr .9fr;  
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  grid-template-areas: 
+    "LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo LaRucheAVelo NeueAra NeueAra NeueAra NeueAra NeueAra NeueAra NeueAra"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo AlianceC AlianceC AlianceC AlianceC LCJ LCJ LCJ LCJ"
+    "HolistiqueCo HolistiqueCo HolistiqueCo HolistiqueCo chaves chaves chaves chaves LCJ LCJ LCJ LCJ"
+    "FightCamp FightCamp FightCamp FightCamp FightCamp FightCamp LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune LeBleuEtLeJaune"; 
+}
+
+.gridItems {
+  overflow: hidden;
+  position: relative;
+  display: flex; 
+}
+
+.hp-container-2 img, .hp-container-2 video{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.NeueAra { grid-area: NeueAra; }
+
+.AlianceC { grid-area: AlianceC; }
+
+.LaRucheAVelo { grid-area: LaRucheAVelo;}
+
+.LiquideColor { grid-area: LiquideColor; }
+
+.HolistiqueCo { grid-area: HolistiqueCo; }
+
+.N { grid-area: N; }
+
+.LaColine { grid-area: LaColine; }
+
+.Laetitia { grid-area: Laetitia; }
+
+.FightCamp { grid-area: FightCamp; }
+
+.LCJ { grid-area: LCJ; }
+
+.Sixfeet { grid-area: Sixfeet; }
+
+.LeBleuEtLeJaune { grid-area: LeBleuEtLeJaune; }
+
+.Blue { grid-area: Blue; }
+
+.chaves { grid-area: chaves; }
+
+.Nolex { grid-area: Nolex; }
+
+/*-------- MOBILE GRID SELECTOR  ---------*/
+.hp-navbar-mobile {
+    color:white;
+    display:none;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    font-size:1.5em;
+    padding-bottom:30px
+}
+.hp-navbar-mobile p {
+  text-transform:uppercase;
+  min-width:132px;
+  text-align:center
+}
+.hp-navbar-mobile button {
+  font-size:1.3em;
+  margin:0 10px;
+  color:white;
+  background:black;
+  border:none
+}
+
+.picAnimation {
+  transform: rotate(50deg) scale(0.5);
+  animation: 2.5s rightSlide 1 forwards;
+}
+
+@keyframes rightSlide {
+  to { position:relative; left: -50em; transform: rotate(50deg) scale(0.5) }
+  100% { position: relative; left:0; transform: rotate(0) scale(1) }
+}
+
+.soulignement {
+  border-bottom: 1px solid;
+}
+
+
+/*-------- PROJECT PAGE --------*/
+
+.project-banner__img {
+  width: 100%;
+  height: auto;
+}
+
+.project-text-initial-box {
+  background-color:#000;
+  max-width:100vw
+}
+
+.project-text-box {
+  width:80vw;
+  margin:auto;
+  padding:4em 0;
+  margin-top: -1em;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-text-box h1 {
+  font-size: 4.5em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align:center
+}
+
+.project-text-box .project-text-box__h1-number {
+  font-size: 8em;
+  letter-spacing: 20px;
+}
+
+.project-text-box__navbar {
+  display: flex;
+  text-align:center;
+  margin:1.5em 0
+}
+
+.project-text-box p {
+  font-size: 1.5em;   
+  margin: 0; 
+  max-width: 74vw;
+  text-align: center;
+}
+
+.project-text-box__navbar h2 {
+  margin: 0 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.project-text-box__navbar h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-text-box h3 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.project-text-box__tags2-box {
+  max-width: 65vw;
+  margin:3em 0;
+  padding: 2em;
+  border: 1px solid #fff;
+}
+
+.project-text-box__tags2-box h2 {
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.containerProjectLAETITIA,
+.containerProjectBLUE,
+.containerProjectSIXFEET,
+.containerProjectN°,
+.containerProjectLARUCHE,
+.containerProjectNEUE, img, video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.containerProjectLAETITIA {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 0fr .8fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 15px;
+  grid-template-areas: "carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA carteLAETITIA logoLAETITIA logoLAETITIA logoLAETITIA"
+  "flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA flyerLAETITIA"
+  "instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA instaLAETITIA";
+  border-bottom: black 15px solid;
+}
+
+.containerProjectBLUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr .33fr;
+  gap: 15px;
+  grid-template-areas: "mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE mockupBLUE "
+  "mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE mockup2BLUE"
+  "bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE bannièreBLUE";
+  border-bottom: 15px solid black;
+}
+
+.containerProjectSIXFEET {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX triptiqueSIX "
+  "paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX paysageSIX "
+  "les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX les4SIX"
+  "gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX gifSIX";
+} 
+.containerProjectN° {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .6fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "N°1 N°1 N°1 N°1 N°1 N°1 N°1 N°1 "
+  "N°2 N°2 N°2 N°2 N°2 N°2 N°2 N°2"
+  "N°3 N°3 N°3 N°3 N°3 N°3 N°3 N°3"
+  "N°4 N°4 N°4 N°4 N°4 N°4 N°4 N°4"
+  "N°5 N°5 N°5 N°5 N°5 N°5 N°5 N°5"
+  "N°6 N°6 N°6 N°6 N°6 N°6 N°6 N°6"
+  "N°7 N°7 N°7 N°7 N°7 N°7 N°7 N°7"; 
+} 
+.containerProjectLARUCHE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1.fr 1.1fr 1.2fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE cyclisteLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE logoLARUCHE "
+  "pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE  pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE pageerrorLARUCHE "
+  "laruche laruche laruche laruche laruche laruche laruche laruche"
+  "pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE pyctoLARUCHE  "
+  "helloLARUCHE helloLARUCHE helloLARUCHE helloLARUCHE  collectivitéLARUCHE  collectivitéLARUCHE collectivitéLARUCHE collectivitéLARUCHE"
+  "siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE siteinternetLARUCHE"
+  "actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE actualitésLARUCHE"
+} 
+.containerProjectNEUE {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr .5fr 1fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .62fr 1fr .7fr 1fr .45fr .52fr;
+  gap: 15px;
+  grid-template-areas: "propoNEUE propoNEUE propoNEUE propoNEUE dessinNEUE dessinNEUE dessinNEUE dessinNEUE"
+  "vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE vynilNEUE"
+  "squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE squeletteNEUE"
+  "mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE mockupNEUE"
+  "behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE behanceNEUE"
+  "videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE videoNEUE";
+}
+.containerProjectNOLEX {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: 1fr 1fr 1fr .5fr 1fr 1fr 1fr .5fr;
+  grid-template-rows: .8fr 1fr .74fr;
+  gap: 10px 10px; 
+  grid-template-areas: "logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX logoNOLEX"
+  "charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX charteNOLEX"
+  "precompNOLEX precompNOLEX precompNOLEX precompNOLEX precompNOLEX precompNOLEX precompNOLEX precompNOLEX"
+  "maquetteNOLEX maquetteNOLEX maquetteNOLEX maquetteNOLEX maquetteNOLEX maquetteNOLEX maquetteNOLEX maquetteNOLEX"
+  "vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX vagueNOLEX"
+  "nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX nolexNOLEX";
+} 
+.containerProjectBOXING {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: 1fr .7fr 1fr .5fr .5fr;
+  grid-template-rows: 1fr .8fr 1fr .7fr .7fr;
+  gap: 10px 10px; 
+  grid-template-areas: "illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING illu2BOXING"
+  "mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING mockupBOXING"
+  "illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING illuBOXING"
+  "faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING faceBOXING"
+  "face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING face2BOXING";
+} 
+
+.containerProjectCHAVES {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: .5fr 1fr .5fr;
+  gap: 10px 10px; 
+  grid-template-areas: "idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES idCHAVES"
+  "logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES logoCHAVES"
+  "packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES packCHAVES";
+} 
+.containerProjectLEBLEU {
+  background-color: #000;
+  display: grid;
+  grid-auto-columns: .4fr;
+  grid-template-columns: .1fr 1fr 1fr;
+  grid-template-rows: .4fr 1fr 1fr;
+  gap: 10px 10px; 
+  grid-template-areas: "imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU imgLEBLEU"
+ "autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU autoPortraitLEBLEU"
+  "logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU logoLEBLEU";
+} 
+.carteLAETITIA { grid-area: carteLAETITIA;}
+.logoLAETITIA { grid-area: logoLAETITIA; }
+.flyerLAETITIA { grid-area: flyerLAETITIA; }
+.instaLAETITIA { grid-area: instaLAETITIA; }
+
+.mockupBLUE { grid-area: mockupBLUE;}
+.mockup2BLUE { grid-area: mockup2BLUE; }
+.bannièreBLUE { grid-area: bannièreBLUE; }
+
+.triptiqueSIX { grid-area: triptiqueSIX;}
+.paysageSIX{ grid-area: paysageSIX; }
+.les4SIX { grid-area: les4SIX; }
+.gifSIX{ grid-area: gifSIX; }
+
+.N°1 { grid-area: N°1;}
+.N°2 { grid-area: N°2;}
+.N°3 { grid-area: N°3;}
+.N°4 { grid-area: N°4;}
+.N°5 { grid-area: N°5;}
+.N°6 { grid-area: N°6;}
+.N°7 { grid-area: N°7;}
+
+.logoLARUCHE { grid-area: logoLARUCHE;}
+.cyclisteLARUCHE { grid-area: cyclisteLARUCHE;}
+.pageerrorLARUCHE { grid-area: pageerrorLARUCHE;}
+.laruche{ grid-area: laruche;}
+.pyctoLARUCHE { grid-area: pyctoLARUCHE;}
+.helloLARUCHE { grid-area: helloLARUCHE;}
+.collectivitéLARUCHE{ grid-area: collectivitéLARUCHE;}
+.siteinternetLARUCHE{grid-area: siteinternetLARUCHE;}
+.actualitésLARUCHE{grid-area: actualitésLARUCHE;}
+
+.propoNEUE { grid-area: propoNEUE;}
+.dessinNEUE { grid-area: dessinNEUE;}
+.vynilNEUE { grid-area: vynilNEUE;}
+.squeletteNEUE{ grid-area: squeletteNEUE;}
+.mockupNEUE{ grid-area: mockupNEUE;}
+.behanceNEUE { grid-area: behanceNEUE;}
+.videoNEUE{grid-area: videoNEUE;}
+
+.logoNOLEX{ grid-area: logoNOLEX;}
+.charteNOLEX { grid-area: charteNOLEX;}
+.precompNOLEX { grid-area: precompNOLEX;}
+.maquetteNOLEX { grid-area: maquetteNOLEX;}
+.vagueNOLEX{ grid-area: vagueNOLEX;}
+.nolexNOLEX { grid-area: nolexNOLEX;}
+
+.illuBOXING{grid-area:illuBOXING;}
+.mockupBOXING{grid-area:mockupBOXING;}
+.illu2BOXING {grid-area:illu2BOXING;}
+.faceBOXING{grid-area:faceBOXING;}
+.face2BOXING{grid-area:face2BOXING;}
+
+.idCHAVES { grid-area: idCHAVES;}
+.logoCHAVES { grid-area: logoCHAVES;}
+.packCHAVES { grid-area: packCHAVES;}
+
+.imgLEBLEU { grid-area: imgLEBLEU;}
+.autoPortraitLEBLEU { grid-area: autoPortraitLEBLEU}
+.logoLEBLEU { grid-area: logoLEBLEU;}
+
+/*---------------- MEDIA QUERIES -------------------*/
+
+@media screen and (max-width: 900px) {
+  /*---------------------------- HEADER -----------------------*/
+  .logo-pepenome {
+    z-index:5000; 
+    top:50px;
+    left:50px;
+  }
+  .navBar {
+    margin:0;
+    width:100%;
+    left:0%;
+  }
+
+  .navBar ul{
+    padding: 0;
+    margin:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:transparent; */
+    /* background-color: #000; */
+    backdrop-filter: blur(20px);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+  }
+  .navBar ul li{
+    margin:30px 0;
+    font-size:1.5rem;
+  }
+  
+  .menuBurger{
+    display: block;
+    background: transparent;
+  }
+
+  
+  .bloc {
+    height: 34vh;
+  }
+    .bloc video {
+    width: -webkit-fill-available;
+    transform:inherit;
+    top:0%;
+    left:0%;
+    }  
+  .navs.hidden {
+    display:none;
+  }
+  
+/*------------------------- INTRO CARD PROPERTIES --------------------------*/
+
+.intro-card-box{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.intro-pic{
+  width: 100%;
+}
+.pola-picture-box img{
+  width: 100%;
+  height: auto;
+}
+.intro-text {
+  width:80%;
+  text-align:center
+}
+.intro-text h3 {
+  width:100%;
+  text-align:center
+}
+.intro-name {
+  margin:auto
+}
+.intro-desc {
+  margin:30px 0;
+  text-align:justify
+}
+
+
+/*---------------------------- ABOUT CARD PROPERTIES -----------------------*/
+
+  .about-card {
+    width:80%;
+    padding:40px 0;
+    flex-direction: column;
+  }
+  .about-card__img-box {
+    width:70%
+  }
+  .about-card__text-box {
+    text-align:left
+  }
+  .about-card__text-box-title {
+    width:70%;
+    margin:auto
+  }
+
+/*------------------------- GRID --------------------------*/
+  .hp-navbar {
+    display: contents;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .nav-hp{
+  width: 100%;
+  }
+
+  .hp-navbar-mobile {
+    display:flex;
+  }
+  .hp-navbar {
+    display:none
+  }
+
+  .text-over h3 {
+    font-size:1.8rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  }
+  .text-over p {
+    font-size:0.9rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  }
+
+/* -------------------------- CREDO CARD PROPERTIES ---------------------------*/
+
+  .credo-card {
+    width:100%;
+    margin:auto;
+    padding:70px 0;
+    flex-direction:column
+  }
+  .credo-card__text-box {
+    width:80%
+  }
+  .credo-card__text-box hr {
+    max-width:inherit;
+    margin-bottom:40px
+  }
+  .credo-card__text-box p {
+    text-align:justify
+  }
+  .credo-card__img-box {
+    margin-top:30px;
+    width:55%
+  }
+  
+  /*------------------------- FOOTER --------------------------*/
+
+
+    .main-footer__up{
+      width: 90%;
+      margin: auto;
+    }
+    .main-footer__bottom img {
+      width:22%;
+      height: auto;
+    }
+  
+    .intro-text h3 {
+      font-size:1.4rem
+    }
+
+
+/*------------------------- PAGE CONTACT --------------------------*/
+    
+    .containerContact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact{
+      margin-bottom: 2rem;
+    }
+    .contacetezMoi{
+      width: 60%;
+      margin: auto;
+    }
+    .socialLink{
+      text-align: center;
+      width:50%;
+      display:flex;
+      justify-content:center
+    }
+
+    .contacetezMoi p{
+      font-size: 1.2rem;
+    }
+    .contacetezMoi h2{
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    .line::after {
+      width: 15rem;
+  }
+
+  /*-------------- REVIEW CARD -------------*/
+  .review-card h2 {
+    font-size:2.4em
+  }
+  .review-card__cite-box {
+    margin-top:40px
+  }
+  .review-card cite {
+    max-width:70%;
+    font-size:1.2em
+  }
+  .review-card h3 {
+    font-size:1.8em
+  }
+
+   /* -------------DETAILS PAGE-----------  */
+   .project-text-box h3 {
+    text-align: center;
+   }
+   .project-text-box__navbar {
+    margin:1em 0;
+   }
+}
+
+@media screen and (max-width: 500px) {
+  /* -------------INTRO CARD--------------- */
+  .intro-desc {
+    text-align:left;
+    margin:0
+  }
+
+  .pola-picture-box {
+    left: 0;
+  }
+
+  /* -------------FOOTER---------------- */
+  .main-footer__up {
+    padding:4em 0
+  }
+  .main-footer__up p:nth-child(2) {
+    font-size:2.5em
+  }
+  .main-footer__up--black {
+    padding:4em 0 2em 0
+  }
+  .main-footer__social-media {
+    padding-bottom:0
+  }
+  .main-footer__up--black p:nth-child(2) {
+    font-size:2.5em
+  }
+
+  /*-----------ABOUT CARD------------- */
+  .about-card {
+    text-align:left
+  }
+  .about-card__text-box-title{
+    text-align:left
+  }
+  
+  /* ----------REVIEW CARD-----------  */
+  .review-card h2 {
+    font-size:2.4em
+  }
+  .review-card__cite-box {
+    margin-top:40px
+  }
+  .review-card cite {
+    max-width:70%;
+    font-size:0.9em
+  }
+  .review-card h3 {
+    font-size:1.5em
+  }
+
+  /* ----------CONTACT-----------  */
+  .contacetezMoi {
+    padding:1rem 2rem 1.5rem 2rem
+  }
+  .contacetezMoi h2 {
+    font-size:2rem
+  }
+
+  /* -------------DETAILS PAGE-----------  */
+  .project-text-box h1 {
+    font-size:2.8em;
+    margin-bottom:0.5em
+  }
+  .project-text-box__navbar {
+    font-size:0.75em
+  }
+  .project-text-box p {
+    text-align:left
+  }
+
+}
+
+.mediaHeader {
+  display: flex;
+  height: 100vh;
+}
